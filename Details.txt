@@ -70,6 +70,9 @@ Topics:
     Step 4: Display it neatly
   
   Creating a started template from Bootstrap:
-    
+
 
   Different Shapes in HTML
+
+Next Session:
+  classlist for a tag/node/element
