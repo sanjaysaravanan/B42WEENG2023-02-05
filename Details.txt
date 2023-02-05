@@ -1,0 +1,75 @@
+Topics:
+
+  CSS - variables --> Declaration and usage
+
+  Document --> HTML file
+
+  DOM --> Document Object Model ( Tree )
+  HTML
+    | ---> HEAD ---> Site Information
+            | ---> META, TITLE 
+    | ---> BODY ---> Site Interface
+            | ---> P, A, DIV, H1
+
+  with the help of document object we can manipualte the content in a website
+
+  DOM Element - element/node/tag
+
+  DOM Manipulation script should follow the following,
+    1. Should be the last child of the body
+                    or
+    2. using defer attribute in the script added in head tag
+      if defer is used parser will not execute the js untill the DOM is completely rendered
+
+  createElement --> 
+    Create Node/Tag/HTMLElement by passing string tagName
+      eg: document.createElement('h1') --> creates h1 element which can be used in the JS
+  
+  setAttribute:
+    set an attribute to element/node/tag
+  
+  appendChild vs append
+
+    appendChild ---> takes only one element as an arguement and adds that as child to the calling tag and returns the appended tag/element
+
+    append ---> takes one/more elements/string as arguments and adds all the arguments as child to the calling tag and returns nothing (undefined)
+
+  
+  innerHTML vs innerText ( attributes of a element or node or tag )
+
+    innerHTML --> renders the string value by marking up any tags in string
+    innerText --> renders only the string value without any marking up
+
+  style:
+    set any style prop value
+
+  getElementById:
+    select an element/node/tag using id
+    always returns the first element which matches the id
+    eg: var ele = document.getElelmentById('sample-id');
+
+  getElementsByClassName:
+    return a htmlcollection(array of tags/elements/nodes) with all the elements which has matching classname
+  
+  querySelector vs querySelectorAll:
+
+    querSelector:
+      returns the first matching elements 
+      eg: .common-class ---> return the first element which has classname common-class
+          .common-class > div ---> return first div inside common class
+    
+    querSelectorAll:
+      returns the all matching elements 
+      eg: .common-class ---> return all the elements which has classname common-class
+          .common-class > div ---> return all div elements inside common class
+  
+  rest countries flag display:
+    Step 1: Hit this https://restcountries.com/v3.1/all get the Countries Data
+    Step 2: Use Countries Data Create all the Flag Image Element
+    Step 3: Set the src and alt attributes
+    Step 4: Display it neatly
+  
+  Creating a started template from Bootstrap:
+    
+
+  Different Shapes in HTML

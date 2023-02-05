@@ -1,0 +1,15 @@
+:root {
+  --blue: rgba(0, 150, 255);
+  --secondary-blue: aqua;
+  --red: rgb(159, 80, 48);
+  --green: #0f0;
+}
+
+.bg-primary {
+  background-color: var(--blue) !important;
+}
+
+div {
+  height: 100px;
+  width: 100px;
+}
