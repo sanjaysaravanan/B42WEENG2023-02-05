@@ -26,7 +26,7 @@ Topics:
       eg: document.createElement('h1') --> creates h1 element which can be used in the JS
   
   setAttribute:
-    set an attribute to element/node/tag
+    set an attribute to element/node/tag eg: <element>.setAttribute( 'src', 'https://some.com/image.jpg' );
   
   appendChild vs append
 
@@ -41,8 +41,9 @@ Topics:
     innerText --> renders only the string value without any marking up
 
   style:
-    set any style prop value
-
+    set any style prop value <element>.style.backgroundColor ( camelCase )
+    <element>.style.borderRadius = '10px';
+    
   getElementById:
     select an element/node/tag using id
     always returns the first element which matches the id
@@ -53,12 +54,12 @@ Topics:
   
   querySelector vs querySelectorAll:
 
-    querSelector:
+    querySelector:
       returns the first matching elements 
       eg: .common-class ---> return the first element which has classname common-class
           .common-class > div ---> return first div inside common class
     
-    querSelectorAll:
+    querySelectorAll:
       returns the all matching elements 
       eg: .common-class ---> return all the elements which has classname common-class
           .common-class > div ---> return all div elements inside common class
